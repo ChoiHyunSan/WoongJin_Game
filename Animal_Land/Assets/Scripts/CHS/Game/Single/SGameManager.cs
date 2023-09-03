@@ -406,6 +406,8 @@ public class SGameManager : MonoBehaviour
                 monster.GetComponent<SMonster>().StartMonster();
             }
         }
+
+        _tileCollider.enabled = true;
     }
 
     public void StopObject()
@@ -426,6 +428,8 @@ public class SGameManager : MonoBehaviour
                 monster.GetComponent<SMonster>().StopMonster();
             }
         }
+
+        _tileCollider.enabled = false;
     }
 
     public int CalAreaScore()
