@@ -135,7 +135,7 @@ public class GameStartView : View
                 break;
         }
 
-        if (DataManager.Instance.PlayerData.Gold < needGold)
+        if (DataManager.Instance.PlayerData.Gold < needGold + _gold)
         {
             popUP.SetCheckMessage("Not enough Gold");
             ViewManager.GetView<StatPurchasePopUp>()?.OnOkayButton(true);
