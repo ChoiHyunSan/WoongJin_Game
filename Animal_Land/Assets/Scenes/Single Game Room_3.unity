@@ -479,6 +479,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2639046711112233429, guid: bf613177ab7ffd447a6f27d2c5a34771, type: 3}
+      propertyPath: _attackDamage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2639046711112233429, guid: bf613177ab7ffd447a6f27d2c5a34771, type: 3}
       propertyPath: _attackMaxCoolTime
       value: 6
       objectReference: {fileID: 0}
@@ -39559,6 +39563,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2639046711112233429, guid: bf613177ab7ffd447a6f27d2c5a34771, type: 3}
+      propertyPath: _attackDamage
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2639046711112233429, guid: bf613177ab7ffd447a6f27d2c5a34771, type: 3}
       propertyPath: _attackCoolTime
       value: 4
       objectReference: {fileID: 0}
@@ -40234,6 +40242,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2639046711112233429, guid: bf613177ab7ffd447a6f27d2c5a34771, type: 3}
+      propertyPath: _attackDamage
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2639046711112233429, guid: bf613177ab7ffd447a6f27d2c5a34771, type: 3}
       propertyPath: _attackCoolTime
       value: 2

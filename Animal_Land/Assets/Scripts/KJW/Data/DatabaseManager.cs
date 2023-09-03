@@ -28,7 +28,13 @@ public class DatabaseManager : MonoBehaviour
     void Start()
     {
         instance = this;
-        DontDestroyOnLoad(instance);
+        DontDestroyOnLoad(instance); 
+
+        string uId = this.GetComponent<WJ_Connector>().UserID; // 웅진 API 아이디
+        if (USER_NAME == string.Empty)
+        {
+            USER_NAME = "Player" + uId.Substring(16, 4);
+        }
         InitDBM();
     }
 
